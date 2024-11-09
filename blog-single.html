@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Mts Al-Ikhlas</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/Mts Al-ikhlas.png" type="image/Mts Al-Ikhlas.jpg" />
+    <link rel="apple-touch-icon" href="images/Mts Al-ikhlas.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Belum punya password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/Mts Al-ikhlas.png" alt="" width="80" height="70">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Beranda</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Kegiatan Sekolah</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil Sekolah</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="course-grid-2.html">Visi & Misi</a>
+								<a class="dropdown-item" href="course-grid-3.html">Struktur Organisasi</a>
+								<a class="dropdown-item" href="course-grid-4.html">Akreditasi</a>
+                                <a class="dropdown-item" href="course-grid-4 copy.html">Program Pembelajaran</a>
+                                <a class="dropdown-item" href="course-grid-4 copy 2.html">Fasilitas Pendidikan</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Berita</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Testimoni Alumni</a>
+								<a class="dropdown-item" href="blog-single.html">Kabar Sekolah</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Galeri</a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Prestasi</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Masuk</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box" style="background-image:url('images/kabar.jpg');">
+		<div class="container text-center">
+			<h1>Kabar Sekolah<span class="m_1">MTs Al-Ikhlas</span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="row"> 
+                <div class="col-lg-9 blog-post-single">
+                    <div class="blog-item">
+						<div class="image-blog">
+							<img src="images/profil mts alikhlas.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="post-content">
+							<div class="post-date">
+								<span class="day">30</span>
+								<span class="month">Nov</span>
+							</div>
+							<div class="meta-info-blog">
+								<span><i class="fa fa-calendar"></i> <a href="#">8 November 2024</a> </span>
+								<span><i class="fa fa-tag"></i>  <a href="#">Kabar Terkini</a> </span>
+								<span><i class="fa fa-comments"></i> <a href="#">12 Komentar</a></span>
+							</div>
+							<div class="blog-title">
+								<h2><a href="#" title="">UTS Berjalan Lancar di MTs Al-Ikhlas: Evaluasi Pembelajaran untuk Tingkatkan Prestasi Siswa</a></h2>
+							</div>
+							<div class="blog-desc">
+								<p>Senin, 6 November 2024 – MTs Al-Ikhlas sukses menyelenggarakan Ujian Tengah Semester (UTS) yang berlangsung dari tanggal 1 hingga 6 November 2024. Seluruh siswa mulai dari kelas VII hingga kelas IX antusias mengikuti UTS ini, yang dilaksanakan secara tertib dan lancar di ruang kelas masing-masing.
+									Kepala Sekolah MTs Al-Ikhlas, Prof. Dr. (H.C.) Martin Fais, M.Pd., mengungkapkan bahwa ujian ini merupakan momen penting bagi siswa untuk mengukur sejauh mana pemahaman mereka terhadap materi pelajaran yang telah disampaikan oleh para guru selama semester ini.</p>
+								<blockquote class="default">
+									“UTS ini adalah evaluasi yang berguna agar siswa dapat mengetahui kelebihan dan kekurangan mereka dalam belajar. Dengan begitu, mereka bisa lebih mempersiapkan diri untuk menghadapi ujian semester yang akan datang,” ujar Bapak Martin Fais.
+								</blockquote>
+								<p>Selama pelaksanaan UTS, pihak sekolah juga menerapkan protokol kesehatan guna menjaga keamanan dan kesehatan seluruh siswa. Guru dan staf pengawas yang bertugas memastikan siswa tetap menjaga kebersihan, menggunakan masker, dan mencuci tangan sebelum masuk ke ruangan ujian.</p>
+								<p>Dengan berakhirnya UTS ini, MTs Al-Ikhlas akan melanjutkan kegiatan belajar mengajar seperti biasa. Hasil ujian diharapkan dapat menjadi evaluasi yang berguna, tidak hanya bagi para siswa, tetapi juga bagi para guru dalam mengidentifikasi kebutuhan pembelajaran yang harus ditingkatkan di semester berikutnya.</p>
+							</div>							
+						</div>
+					</div>					
+					<div class="blog-comments">
+						<h4>Comments (3)</h4>
+						<div id="comment-blog">
+							<ul class="comment-list">
+								<li class="comment">
+									<div class="avatar"><img alt="" src="images/tedjo.jpg" class="avatar"></div>
+									<div class="comment-container">
+										<h5 class="comment-author"><a href="#">Sutedjo Admodjo, M.Pd.</a></h5>
+										<div class="comment-meta">
+											<a href="#" class="comment-date link-style1">11 November 2024</a>
+											<a class="comment-reply-link link-style3" href="#respond">Balas Komentar »</a>
+										</div>
+										<div class="comment-body">
+											<p>"Senang sekali melihat anak-anak sudah bisa mengikuti ujian dengan lancar. Semoga hasilnya bisa membanggakan dan menjadi motivasi bagi mereka untuk terus belajar."</p>
+										</div>
+									</div>
+								</li>
+								<li class="comment">
+									<div class="avatar"><img alt="" src="images/raden.jpg" class="avatar"></div>
+									<div class="comment-container">
+										<h5 class="comment-author"><a href="#">Raden Kang Mas El-Kecepatan</a></h5>
+										<div class="comment-meta">
+											<a href="#" class="comment-date link-style1">12 November 2024</a>
+											<a class="comment-reply-link link-style3" href="#respond">Balas Komentar »</a>
+										</div>
+										<div class="comment-body">
+											<p>"Alhamdulillah, ujiannya sudah selesai. Beberapa soal memang sulit, tapi kami sudah berusaha belajar dengan maksimal. Semoga hasilnya sesuai harapan."</p>
+										</div>
+									</div>
+									<ul class="children">
+										<li class="comment">
+											<div class="avatar"><img alt="" src="images/jayadi.jpg" class="avatar"></div>
+											<div class="comment-container">
+												<h5 class="comment-author"><a href="#">Muhammad Jayadi, M.Pd.</a></h5>
+												<div class="comment-meta"><a href="#" class="comment-date link-style1">February 14, 2015</a><a class="comment-reply-link link-style3" href="#respond">Reply »</a></div>
+												<div class="comment-body">
+													<p>"UTS kali ini berjalan tertib, dan anak-anak terlihat antusias meski soal-soal cukup menantang. Saya berharap mereka bisa memahami materi lebih baik dan terus berkembang."</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="comments-form">
+						<h4>Leave a comment</h4>
+						<div class="comment-form-main">
+							<form action="#">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="form-control" name="commenter-name" placeholder="Nama" id="commenter-name" type="text">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="form-control" name="commenter-email" placeholder="Email" id="commenter-email" type="text">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input class="form-control" name="commenter-whatsapp" placeholder="Whatsapp" id="commenter-url" type="text">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea class="form-control" name="commenter-message" placeholder="Pesan" id="commenter-message" cols="30" rows="2"></textarea>
+										</div>
+									</div>
+									<div class="col-md-12 post-btn">
+										<button class="hover-btn-new orange"><span>Kirim Komentar</span></button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+                </div><!-- end col -->
+				<div class="col-lg-3 col-12 right-single">
+					<div class="widget-search">
+						<div class="site-search-area">
+							<form method="get" id="site-searchform" action="#">
+								<div>
+									<input class="input-text form-control" name="search-k" id="search-k" placeholder="Search keywords..." type="text">
+									<input id="searchsubmit" value="Search" type="submit">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="widget-categories">
+						<h3 class="widget-title">Kategori</h3>
+						<ul>
+							<li><a href="#">Ekstrakurikuler</a></li>
+							<li><a href="#">Pramuka</a></li>
+							<li><a href="#">Marching Band</a></li>
+							<li><a href="#">Tahfidz</a></li>
+							<li><a href="#">Kelas Bahasa</a></li>
+							<li><a href="#">Laboratorium</a></li>
+						</ul>
+					</div>
+					<div class="widget-tags">
+						<h3 class="widget-title">Mencari Tag</h3>
+						<ul class="tags">
+							<li><a href="#"><b>fisika</b></a></li>
+							<li><a href="#"><b>biologi</b></a></li>
+							<li><a href="#">kimia</a></li>
+							<li><a href="#">matematika</a></li>
+							<li><a href="#">bahasa arab</a></li>
+							<li><a href="#"><b>geografi</b></a></li>
+							<li><a href="#"><b>sosiologi</b></a></li>
+							<li><a href="#"><b>fiqih</b></a></li>
+							<li><a href="#">akidah akhlak</a></li>
+							<li><a href="#">btq</a></li>
+							<li><a href="#">bahasa jawa</a></li>
+							<li><a href="#">bahasa inggris</a></li>
+							<li><a href="#"><b>ekonomi</b></a></li>
+						</ul>
+					</div>
+				</div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Tentang MTs Al-Ikhlas</h3>
+                        </div>
+                        <p> Mencetak Generasi Berilmu, Berkarakter, dan Berakhlak Mulia.</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://wa.me/+6285641101039"><i class="fa fa-whatsapp"></i></a></li>
+								<li><a href="https://instagram.com/its.luthfiyah_"><i class="fa fa-instagram"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Akses Cepat</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="about.html">Kegiatan Sekolah</a></li>
+                            <li><a href="teachers.html">Galeri</a></li>
+							<li><a href="pricing.html">Prestasi</a></li>
+							<li><a href="contact.html">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Informasi Lebih Lanjut</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="#">MTs Al-Ikhlas@gmail.com</a></li>
+                            <li><a href="#"></a>+6285641101039</li>
+                            <li>PO Box 56535 Ngaliyan, Semarang, Jawa Tengah, Indonesia</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2024 <a href="#">MTs Al-Ikhlas</a> Design By : <a href="#">Qurrotun Ni'matul Luthfiyah</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>
